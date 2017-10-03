@@ -44,12 +44,14 @@ body {
   text-align: right;
   grid-column: 1;
   grid-row: 1;
+  transform: rotate(-1deg);
 }
 
 main {
   grid-column: 2;
   grid-row: 2;
-  padding-right: 1em
+  padding-right: 1em;
+  transform: rotate(.5deg);
 }
 
 
