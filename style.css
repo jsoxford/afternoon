@@ -1,0 +1,70 @@
+
+/* todo - use include */
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:200,400');
+
+body {
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 200;
+}
+
+
+.⭐️ {
+  font-weight: 400;
+  text-transform: uppercase;
+  border-bottom: 1px solid #0097FF;
+  padding-left: 1em
+}
+
+.⭐️ > span {
+  display: block;
+}
+
+.⭐️ > span > span {
+  font-weight: 200
+}
+
+.📅 {
+  font-weight: 200;
+  font-size: .8em;
+}
+
+.📅 > span {
+  display: block;
+}
+
+body {
+  display: grid;
+  grid-template-columns: auto 2fr;
+  grid-gap: 2vmax;
+  max-width: 50em;
+  margin: auto;
+}
+
+.🔝 {
+  text-align: right;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+main {
+  grid-column: 2;
+  grid-row: 2;
+  padding-right: 1em
+}
+
+
+@media (max-width: 700px) {
+  body {
+    display: block;
+  }
+
+  .🔝 {
+    width: 60vw;
+    margin: auto;
+  }
+
+  main {
+    margin: 4em 6vw;
+    padding: 0;
+  }
+}
