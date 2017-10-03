@@ -5,6 +5,7 @@
 body {
   font-family: 'Source Code Pro', monospace;
   font-weight: 200;
+  font-size: 120%;
 }
 
 
@@ -69,4 +70,42 @@ main {
     margin: 4em 6vw;
     padding: 0;
   }
+}
+
+hr {
+  border: none;
+  border-bottom: 1px solid #0097FF;
+  width: 50%;
+  margin: 3em 5vh;
+}
+
+
+.👏:before {
+  content: '→ '
+}
+
+.🤷‍♀️ {
+  font-size: 0.75em;
+  opacity: 0.4;
+  background: rgba(255,0,150, 0.2)
+}
+
+a {
+  color: #f08;
+  text-decoration: none
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+.🔗s {
+  padding: 0;
+  list-style: none;
+}
+
+footer {
+  font-size: 0.8em;
+  margin-top: 8em;
+  text-align: right;
 }
